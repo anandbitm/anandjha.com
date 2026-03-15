@@ -60,7 +60,7 @@
               <a href="index.html#about"><i class="fa fa-fw fa-quote-left"></i><span>About</span></a>
               <a href="index.html#service"><i class="fa fa-fw fa-globe"></i><span>Roles</span></a>
               <a href="index.html#portfolio"><i class="fa fa-fw fa-picture-o"></i><span>Technologies</span></a>
-              <a href="index.html#blog"><i class="fa fa-fw fa-briefcase"></i><span>Companies</span></a>
+              <a href="index.html#companies"><i class="fa fa-fw fa-briefcase"></i><span>Companies</span></a>
               <a href="index.html#contact"><i class="fa fa-fw fa-envelope-o"></i><span>Contact</span></a>
             </div>
           </nav>
@@ -127,7 +127,7 @@
             </div>
 
             <div class="row-heading">
-            <span>&#9758;</span> 12+ years of IT industry experience encompassing product development with wide range of skill sets, roles and industry
+            <span>&#9758;</span> 15+ years of IT industry experience encompassing product development with wide range of skill sets, roles and industry
             verticals.
             </div>
 
@@ -318,107 +318,110 @@
   <!-- ==========================
         PORTFOLIO SECTION
     =========================== -->
-  <section class="swag text-center" id="portfolio">
+  <section class="section-padding" id="portfolio">
     <div class="container">
-      <!-- Headline -->
-      <div class="row">
-        <h1 class="arrow">
-          The <span>technologies</span> I have worked on
-        </h1>
+      <div class="section-header text-center">
+        <h2>Technologies I use</h2>
+        <p>Hover and click for details on how I leverage these tools in enterprise-grade software delivery.</p>
+      </div>
+
+      <div class="row tech-grid mt-4">
+        <div class="col-6 col-sm-4 col-md-3 mb-4">
+          <button class="tech-card" data-toggle="modal" data-target="#techModal" data-title="Angular" data-details="Built scalable component-driven SPAs with Angular, including service layers and RxJS patterns.">
+            <img src="img/portfolio/angular.png" alt="Angular" />
+            <h5>Angular</h5>
+          </button>
+        </div>
+        <div class="col-6 col-sm-4 col-md-3 mb-4">
+          <button class="tech-card" data-toggle="modal" data-target="#techModal" data-title="ReactJS" data-details="Implemented dynamic UIs with React, Redux and hooks for high-performance client experiences.">
+            <img src="img/portfolio/react.png" alt="ReactJS" />
+            <h5>ReactJS</h5>
+          </button>
+        </div>
+        <div class="col-6 col-sm-4 col-md-3 mb-4">
+          <button class="tech-card" data-toggle="modal" data-target="#techModal" data-title="Vue.js" data-details="Delivered maintainable front-end apps using Vue with Vuex and automated testing suites.">
+            <img src="img/portfolio/vue.png" alt="Vue.js" />
+            <h5>Vue.js</h5>
+          </button>
+        </div>
+        <div class="col-6 col-sm-4 col-md-3 mb-4">
+          <button class="tech-card" data-toggle="modal" data-target="#techModal" data-title="Node.js" data-details="Engineered server-side services, microservice integration and backend CLI tooling in Node.js.">
+            <img src="img/portfolio/node.png" alt="Node.js" />
+            <h5>Node.js</h5>
+          </button>
+        </div>
+        <div class="col-6 col-sm-4 col-md-3 mb-4">
+          <button class="tech-card" data-toggle="modal" data-target="#techModal" data-title="Ionic" data-details="Built cross-platform hybrid mobile apps with Ionic, Angular and PWA-ready features.">
+            <img src="img/portfolio/ionic.png" alt="Ionic" />
+            <h5>Ionic</h5>
+          </button>
+        </div>
+        <div class="col-6 col-sm-4 col-md-3 mb-4">
+          <button class="tech-card" data-toggle="modal" data-target="#techModal" data-title="jQuery" data-details="Created interactive UI enhancements and legacy application upgrades with jQuery.">
+            <img src="img/portfolio/jquery.png" alt="jQuery" />
+            <h5>jQuery</h5>
+          </button>
+        </div>
+        <div class="col-6 col-sm-4 col-md-3 mb-4">
+          <button class="tech-card" data-toggle="modal" data-target="#techModal" data-title="HTML5" data-details="Implemented semantic, accessible markup with modern HTML5 APIs for rich user experiences.">
+            <img src="img/portfolio/html5.png" alt="HTML5" />
+            <h5>HTML5</h5>
+          </button>
+        </div>
+        <div class="col-6 col-sm-4 col-md-3 mb-4">
+          <button class="tech-card" data-toggle="modal" data-target="#techModal" data-title="CSS3" data-details="Styled responsive, animated layouts and cross-browser style systems in CSS3 and preprocessor workflows.">
+            <img src="img/portfolio/css3.png" alt="CSS3" />
+            <h5>CSS3</h5>
+          </button>
+        </div>
+        <div class="col-6 col-sm-4 col-md-3 mb-4">
+          <button class="tech-card" data-toggle="modal" data-target="#techModal" data-title="MySQL" data-details="Designed normalized schemas and high-performance queries for data-driven backend systems.">
+            <img src="img/portfolio/mysql.png" alt="MySQL" />
+            <h5>MySQL</h5>
+          </button>
+        </div>
+        <div class="col-6 col-sm-4 col-md-3 mb-4">
+          <button class="tech-card" data-toggle="modal" data-target="#techModal" data-title="PHP" data-details="Built server-side applications and legacy integration services with PHP best practices.">
+            <img src="img/portfolio/php.png" alt="PHP" />
+            <h5>PHP</h5>
+          </button>
+        </div>
+        <div class="col-6 col-sm-4 col-md-3 mb-4">
+          <button class="tech-card" data-toggle="modal" data-target="#techModal" data-title="ExpressJS" data-details="Built RESTful APIs and middleware work with Express, integrating authentication and caching.">
+            <img src="img/portfolio/express.png" alt="ExpressJS" />
+            <h5>ExpressJS</h5>
+          </button>
+        </div>
+        <div class="col-6 col-sm-4 col-md-3 mb-4">
+          <button class="tech-card" data-toggle="modal" data-target="#techModal" data-title="RESTful API" data-details="Developed API-first products with proper versioning, security and contract testing.">
+            <img src="img/portfolio/restapi.png" alt="RESTful API" />
+            <h5>RESTful API</h5>
+          </button>
+        </div>
       </div>
     </div>
   </section>
 
-  <div class="container text-center">
-    <div class="row row-offset-0">
-
-      <!-- PORTFOLIO ITEM 1 -->
-      <div class="col-md-3 col-sm-6">
-        <img src="img/portfolio/angular.png" height="100px;" />
-        <h2>Angular</h2>
+  <!-- Modal -->
+  <div class="modal fade" id="techModal" tabindex="-1" role="dialog" aria-labelledby="techModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="techModalTitle"></h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p id="techModalDetails"></p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
       </div>
-      <!-- PORTFOLIO ITEM END -->
-
-      <!-- PORTFOLIO ITEM 2 -->
-      <div class="col-md-3 col-sm-6">
-        <img src="img/portfolio/react.png" height="100px;" />
-        <h2>ReactJS</h2>
-      </div>
-      <!-- PORTFOLIO ITEM END -->
-
-      <!-- PORTFOLIO ITEM 3 -->
-      <div class="col-md-3 col-sm-6">
-        <img src="img/portfolio/vue.png" height="100px;" />
-        <h2>Vue.js</h2>
-      </div>
-      <!-- PORTFOLIO ITEM END -->
-
-      <!-- PORTFOLIO ITEM 4 -->
-      <div class="col-md-3 col-sm-6">
-        <img src="img/portfolio/node.png" height="100px;" />
-        <h2>NodeJS</h2>
-      </div>
-      <!-- PORTFOLIO ITEM END -->
-
-      <!-- PORTFOLIO ITEM 5 -->
-      <div class="col-md-3 col-sm-6">
-        <img src="img/portfolio/ionic.png" height="100px;" />
-        <h2>IONIC</h2>
-      </div>
-      <!-- PORTFOLIO ITEM END -->
-
-      <!-- PORTFOLIO ITEM 6 -->
-      <div class="col-md-3 col-sm-6">
-        <img src="img/portfolio/jquery.png" height="100px;" />
-        <h2>JQuery</h2>
-      </div>
-      <!-- PORTFOLIO ITEM END -->
-
-      <!-- PORTFOLIO ITEM 7 -->
-      <div class="col-md-3 col-sm-6">
-        <img src="img/portfolio/html5.png" height="100px;" />
-        <h2>HTML5</h2>
-      </div>
-      <!-- PORTFOLIO ITEM END -->
-
-      <!-- PORTFOLIO ITEM 8 -->
-      <div class="col-md-3 col-sm-6">
-        <img src="img/portfolio/css3.png" height="100px;" />
-        <h2>CSS3</h2>
-      </div>
-      <!-- PORTFOLIO ITEM END -->
-
-      <!-- PORTFOLIO ITEM 9 -->
-      <div class="col-md-3 col-sm-6">
-        <img src="img/portfolio/mysql.png" height="100px;" />
-        <h2>MySQL</h2>
-      </div>
-      <!-- PORTFOLIO ITEM END -->
-
-      <!-- PORTFOLIO ITEM 10 -->
-      <div class="col-md-3 col-sm-6">
-        <img src="img/portfolio/php.png" height="100px;" />
-        <h2>PHP</h2>
-      </div>
-      <!-- PORTFOLIO ITEM END -->
-
-      <!-- PORTFOLIO ITEM 11 -->
-      <div class="col-md-3 col-sm-6">
-        <img src="img/portfolio/express.png" height="100px;" />
-        <h2>ExpressJS</h2>
-      </div>
-      <!-- PORTFOLIO ITEM END -->
-
-      <!-- PORTFOLIO ITEM 11 -->
-      <div class="col-md-3 col-sm-6">
-        <img src="img/portfolio/restapi.png" height="100px;" />
-        <h2>RESTful API</h2>
-      </div>
-      <!-- PORTFOLIO ITEM END -->
     </div>
-    <!--/row-->
   </div>
-  <!--/.container-->
+
   <!-- ==========================
         PORTFOLIO SECTION END
         =========================== -->
@@ -446,86 +449,70 @@
 
 
   <!-- ==========================
-        BLOG SECTION 
+        COMPANIES SECTION
         =========================== -->
-  <section class="text-center section-padding" id="blog">
+  <section class="companies-section section-padding" id="companies">
     <div class="container">
-      <!-- Headline -->
-      <div class="row">
-        <div class="col-md-12">
-          <h1 class="arrow">The <span>organisations</span> I woked with</h1>
-        </div>
-      </div><br><br>
+      <div class="section-header text-center">
+        <h2>Organizations I’ve worked with</h2>
+        <p>Global brands backed by strong execution and technical leadership.</p>
+      </div>
 
-      <!-- Blog Slider -->
-      <div class="row">
-        <div id="blogSlider">
-          <ul class="slides">
-            <li>
-               <!-- Blog Entry 0 -->
-               <div class="col-md-4 wp4">
-                  <h2>Wells Fargo</h2><!-- Headline -->
-                  <p class="text-left desc-text"><a href="https://en.wikipedia.org/wiki/Wells_Fargo" target="_blank">Wells Fargo</a> is an American multinational financial services company. Wells Fargo is the 4th largest bank in the United States.</p>
-                  <!-- Description-->
-                </div>
-              <!-- Blog Entry 1 -->
-              <div class="col-md-4 wp4">
-                <h2>Ascena retail group Inc.</h2><!-- Headline -->
-                <p class="text-left desc-text"><a href="https://en.wikipedia.org/wiki/Ascena_Retail_Group" target="_blank">Ascena Retail Group,
-                    Inc</a> is an
-                  American retailer of women's clothing. Ascena also owns Justice, Lane Bryant, and Catherines clothing
-                  store brands, and is the parent company of Ann Inc., operator of Ann Taylor and Loft stores.</p>
-                <!-- Description-->
-              </div>
-              <!-- Blog Entry 2 -->
-              <div class="col-md-4 wp4 delay-05s">
-                <h2>Oracle</h2><!-- Headline -->
-                <p  class="text-left desc-text"><a href="https://en.wikipedia.org/wiki/Oracle_Corporation" target="_blank">Oracle Corporation</a> is
-                  an American
-                  multinational computer technology corporation headquartered in Redwood Shores, California. The company
-                  sells database software and technology, cloud engineered systems, and enterprise software products.
-                </p>
-                <!-- Description -->
-              </div>
-              <!-- Blog Entry 3 -->
-              <div class="col-md-4 wp4 delay-1s">
-                <h2>IBM</h2><!-- Headline -->
-                <p  class="text-left desc-text"><a href="https://en.wikipedia.org/wiki/IBM" target="_blank">International Business Machines
-                    Corporation (IBM)</a> is an American multinational information technology company headquartered in
-                  Armonk, New York, with operations in over 170 countries. The company began in 1911, founded in
-                  Endicott, New York</p><!-- Description-->
-              </div>
-            </li>
-            <li>
-              <!-- Blog Entry 4 -->
-              <div class="col-md-4 wp4">
-                <h2>MaxMobility Pvt Ltd</h2><!-- Headline -->
-                <p  class="text-left desc-text"><a href="https://www.maxmobility.in/" target="_blank">MaxMobility</a>, Innovative technology company
-                  help organisations ride the digital wave with enterprise mobility, cloud and web apps and digital
-                  marketing.</p><!-- Description -->
-              </div>
-              <!-- Blog Entry 5 -->
-              <div class="col-md-4 wp4 delay-05s">
-                <h2>IPE global limited</h2>
-                <p  class="text-left desc-text"><a href="https://en.wikipedia.org/wiki/IPE_Global_Limited" target="_blank">IPE Global Limited</a> is
-                  an Indian international development consulting group known for providing technical assistance and
-                  solutions for development and sustainable growth in developing countries</p>
-              </div>
-              <!-- Blog Entry 6 -->
-              <div class="col-md-4 wp4 delay-1s">
-                <h2>RJ Softwares</h2><!-- Headline -->
-                <p  class="text-left desc-text"><a href="https://www.rjs.in" target="_blank">RJ Softwares</a>, leading game & app development
-                  company based out of Kolkata, India. RJS was established 2001 to provide software development
-                  services.</p> <!-- Description -->
-              </div>
-            </li>
-          </ul>
+      <div class="company-grid mt-4">
+        <div class="mb-4">
+          <div class="company-card">
+            <div class="company-logo"><i class="fa fa-university"></i></div>
+            <h5>Wells Fargo</h5>
+            <p>Financial services leader focused on digital products and reliability.</p>
+          </div>
+        </div>
+        <div class="col-6 col-sm-4 col-md-3 mb-4">
+          <div class="company-card">
+            <div class="company-logo"><i class="fa fa-building-o"></i></div>
+            <h5>Oracle</h5>
+            <p>Cloud PaaS, container service and enterprise SaaS product engineering.</p>
+          </div>
+        </div>
+        <div class="col-6 col-sm-4 col-md-3 mb-4">
+          <div class="company-card">
+            <div class="company-logo"><i class="fa fa-globe"></i></div>
+            <h5>IBM</h5>
+            <p>Enterprise software and mobility platforms, plus knowledge sharing.</p>
+          </div>
+        </div>
+        <div class="col-6 col-sm-4 col-md-3 mb-4">
+          <div class="company-card">
+            <div class="company-logo"><i class="fa fa-shopping-cart"></i></div>
+            <h5>Ascena Retail</h5>
+            <p>eCommerce and retail system modernization for apparel ecosystems.</p>
+          </div>
+        </div>
+        <div class="col-6 col-sm-4 col-md-3 mb-4">
+          <div class="company-card">
+            <div class="company-logo"><i class="fa fa-mobile"></i></div>
+            <h5>MaxMobility</h5>
+            <p>Mobile-first, hybrid apps and digital transformation for enterprise clients.</p>
+          </div>
+        </div>
+        <div class="col-6 col-sm-4 col-md-3 mb-4">
+          <div class="company-card">
+            <div class="company-logo"><i class="fa fa-globe"></i></div>
+            <h5>IPE Global</h5>
+            <p>Consulting for international development and sustainability projects.</p>
+          </div>
+        </div>
+        <div class="col-6 col-sm-4 col-md-3 mb-4">
+          <div class="company-card">
+            <div class="company-logo"><i class="fa fa-code"></i></div>
+            <h5>RJ Softwares</h5>
+            <p>Indian game and app development with full-stack product solutions.</p>
+          </div>
         </div>
       </div>
     </div>
   </section>
   <!-- ==========================
-        BLOG SECTION END
+        COMPANIES SECTION END
         =========================== -->
 
 
@@ -654,7 +641,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12 text-center">
-          <p>All Rights Reserved. &copy; 2023 <a href="http://www.themewagon.com">ThemeWagon</a> <br />
+          <p>All Rights Reserved. &copy; 2026 <a href="http://www.themewagon.com">ThemeWagon</a> <br />
           <p>Image credit - Google</p>
         </div>
       </div>
@@ -695,6 +682,29 @@
       animation: "fade", // You can pick the way it animates when rotating through words. Options are dissolve (default), fade, flip, flipUp, flipCube, flipCubeUp and spin.
       separator: ",", // If you don't want commas to be the separator, you can define a new separator (|, &, * etc.) by yourself using this field.
       speed: 2000 // How many milliseconds until the next word show.
+    });
+
+    // Navbar scroll and year
+    document.getElementById('year')?.textContent = new Date().getFullYear();
+    $(".nav-link").on("click", function (e) {
+      if (this.hash !== "") {
+        e.preventDefault();
+        var target = this.hash;
+        $('html, body').animate({ scrollTop: $(target).offset().top - 72 }, 600);
+      }
+    });
+    window.addEventListener('scroll', function () {
+      document.querySelector('nav').classList.toggle('scrolled', window.scrollY > 20);
+    });
+
+    // Technology modal fill
+    $('#techModal').on('show.bs.modal', function (event) {
+      var button = $(event.relatedTarget); // Button that triggered the modal
+      var title = button.data('title');
+      var details = button.data('details');
+      var modal = $(this);
+      modal.find('.modal-title').text(title);
+      modal.find('#techModalDetails').text(details);
     });
   </script>
 
